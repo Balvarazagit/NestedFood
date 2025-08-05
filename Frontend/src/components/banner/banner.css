@@ -1,0 +1,108 @@
+.bannerSection {
+    margin: 0 0 30px 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .bannerSection .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Default desktop layout */
+    gap: 20px;
+  }
+  
+  .col-4 {
+    width: 32%; /* Keep 3 items per row on large screens */
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .box {
+    opacity: 1;
+  }
+  
+  .bannerSection .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .h4-btn {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 20px;
+    font-weight: 700;
+    z-index: 2;
+  }
+  
+  .h4-btn h4 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #253D4E;
+  }
+  
+  .h4-btn button {
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3BB77E;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .h4-btn button:hover {
+    background-color: goldenrod;
+  }
+  
+  .h4-btn h4:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+  }
+  .h4-btn a{
+    text-decoration: none;
+  }
+  /* ✅ RESPONSIVE CHANGES FOR TABLET & MOBILE */
+  @media (max-width: 1024px) {
+    .row {
+      justify-content: center; /* Center on wrap */
+    }
+  
+    .col-4 {
+      width: 80%; /* Keep banner size large */
+      margin-bottom: 20px;
+    }
+  
+    .h4-btn {
+      top: 8%;
+      left: 8%;
+    }
+    
+  }
+  
+  @media (max-width: 600px) {
+    .col-4 {
+      width: 90%;
+    }
+  
+    .h4-btn h4 {
+      font-size: 18px;
+      min-height: auto;
+    }
+  
+    .h4-btn {
+      padding: 10px;
+    }
+  
+    .h4-btn button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  

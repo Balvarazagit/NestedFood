@@ -1,0 +1,71 @@
+.notFound {
+  /* height: 80vh; */
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notFound img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.notFound h1 {
+  font-size: 70px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.notFound p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #f4f4f4;
+}
+
+.back-to-home-button {
+  display: flex;
+  align-items: center;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.back-to-home-button:hover {
+  background-color: #388e3c;
+  box-shadow: 0 6px 16px rgba(56, 142, 60, 0.5);
+  transform: translateY(-2px);
+}
+
+.back-to-home-button:focus {
+  outline: none;
+}
+
+.back-to-home-button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .back-to-home-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

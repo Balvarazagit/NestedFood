@@ -1,0 +1,215 @@
+.footerBanner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-10.png");
+  padding: 20px 40px 0px;
+  position: relative;
+}
+
+
+/* .footerBanner {
+  width: 100% auto;
+  height: 100% auto;
+  margin-bottom: 40px;
+  position: relative;
+  background-image: url("https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-10.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .footerBanner .footerImg {
+  max-width: 100%;
+  min-height: 420px;
+  border-radius: 20px;
+  background-image: url("https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-10.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+} */
+
+/* .footerBanner .footerImg img {
+  max-width: 40% !important;
+  height: auto;
+  position: absolute;
+  right: 4%;
+  top: 95px;
+} */
+/* .footerBanner .info-banner {
+  position: absolute;
+  top: 20%;
+  left: 6%;
+} */
+.footerBanner .info-banner h1 {
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.footerBanner .info-banner h4 {
+  font-size: 18px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.footerBanner .footerImg img {
+  width: 100%;
+}
+/* Email Input CSS */
+/* .info-banner    .email-input {
+  position: absolute;
+  bottom: -65%;
+  left: -2%;
+} */
+
+.info-banner .email-input input {
+  position: relative;
+  max-width: 23rem;
+  max-height: 64px;
+  border-radius: 50px;
+  padding: 20px 130px 20px 50px;
+  border: 0;
+  margin: 10px 0px ;
+}
+
+.info-banner .email-input button {
+    position: absolute;
+    left: 18%;
+  font-size: 17px;
+  border-radius: 50px;
+  padding: 20px 36px 20px 36px;
+  text-transform: capitalize;
+  color: white;
+  margin: 10px 0px ;
+}
+
+.info-banner .email-input svg {
+  position: absolute;
+  left: 50px;
+  bottom: 25%;
+  font-size: 25px;
+  z-index: 10;
+  color: #7e7e7e;
+  opacity: 1.5;
+}
+
+.info-banner .email-input button:hover {
+  background-color: #90ee90 !important;
+  transition: 0.4s ease-in-out;
+}
+
+.info-banner .email-input input:focus {
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .footerBanner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .footerBanner .info-banner h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .footerBanner .info-banner h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .info-banner .email-input input {
+    padding: 15px 110px 15px 40px;
+    max-width: 20rem;
+  }
+
+  .info-banner .email-input button {
+    left: 15%;
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  .info-banner .email-input svg {
+    left: 40px;
+    bottom: 25%;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .footerBanner {
+    padding: 15px   ;
+  }
+
+  .footerBanner .info-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .footerBanner .info-banner h4 {
+    font-size: 14px;
+  }
+
+  .info-banner .email-input input {
+    padding: 12px 100px 12px 30px;
+    max-width: 18rem;
+  }
+
+  .info-banner .email-input button {
+    left: 12%;
+    padding: 12px 28px;
+    font-size: 14px;
+  }
+
+  .info-banner .email-input svg {
+    left: 30px;
+    bottom: 20%;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .footerBanner {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .footerBanner .info-banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .footerBanner .info-banner h4 {
+    font-size: 12px;
+  }
+
+  .info-banner .email-input input {
+    padding: 10px 90px 10px 25px;
+    max-width: 16rem;
+  }
+
+  .info-banner .email-input button {
+    left: 55%;
+    font-size: 12px;
+  }
+
+  .info-banner .email-input svg {
+    left: 87px;
+        bottom: 64%;
+        width: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .info-banner .email-input svg {
+    left: 49px;
+        bottom: 60%;
+        width: 20px;
+  }
+  .info-banner .email-input input{
+    font-size: 14px;
+  }
+}

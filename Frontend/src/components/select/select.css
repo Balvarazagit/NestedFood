@@ -1,0 +1,89 @@
+header select {
+  border: none;
+  outline: none;
+  background: none !important;
+}
+.Country-option:hover {
+  border-color: green;
+  border: 2px solid green;
+}
+.faSearch {
+  color: lightgray;
+  font-size: 22px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  opacity: 0.9;
+}
+.col-5 .countryWrapper {
+  box-shadow: 0 6px 10px rgb(0 0 0 / 20%);
+  text-align: center;
+  font-size: 13px;
+  height: 30px;
+  margin: 0px 0px 27px  0px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  position: relative;
+}
+.col-5 .countryWrapper:hover {
+  transform: translateY(-2px);
+}
+.col-5 .country-select {
+  color: green;
+margin: 7px 7px 0 0;
+}
+.col-5 .countryWrapper .map-icon {
+  margin:0px 0px 2px 13px ;
+  color: #dcdcdc;
+  font-size: 14px;
+}
+
+
+/* dropdownMenu in Account*/
+.dropdownMenu {
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  margin-top: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.25s ease; 
+  visibility: hidden;
+  border-radius: 3%;
+  z-index: 1000;
+}
+.dropdownMenu li {
+  width: 100%;
+  list-style: none;
+}
+.dropdownMenu button {
+  font-size: 14px;
+  width: 130px;
+  justify-content: flex-start;
+  text-transform: capitalize;
+  color: #333;
+  line-height: 2.5;
+  text-align: start;
+  letter-spacing: 1px;
+}
+.dropdownMenu li button:hover {
+    background-color: #f1f1f1;
+    color: green;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-out;
+}
+.icons ul li span:hover {
+    transform: scale(1.1);  
+    transition: transform 0.2s ease-out;
+  }
+.acoount-drop:hover .dropdownMenu,
+.dropdownMenu:hover .dropdownMenu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.15); 
+  z-index: 10011;
+}

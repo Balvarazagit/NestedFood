@@ -1,0 +1,77 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboard-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.sidebar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-button {
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.sidebar-button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sidebar-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  color: white; /* Ensure the text stays white on hover */
+}
+
+.main-content {
+  margin-left: 20px;
+}
+
+.main-content h1 {
+  margin-top: 0;
+}
+
+.main-content a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sidebar-button {
+    text-align: center;
+  }
+  .dashboard-container {
+    height: auto;
+  }
+}

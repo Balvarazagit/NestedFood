@@ -1,0 +1,131 @@
+/* General Styles */
+.section-last {
+    padding: 40px 20px;
+    overflow: hidden;
+    font-size: auto;
+    border-bottom: 1px solid lightgray;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.section-last .container-fluid {
+    margin-bottom: 20px;
+}
+
+.main-logo {
+    margin-bottom: 20px;
+}
+
+.main-logo img {
+    max-width: 150px;
+}
+
+/* Contact Info */
+.more-info {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.more-info svg {
+    font-size: 20px;
+    color: #3bb77e;
+}
+
+/* Footer Sections */
+.section-last .allUl-footer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.section-last .allUl-footer h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #253d4e;
+}
+
+.section-last .allUl-footer li {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-last .allUl-footer li:hover {
+    color: #3bb77e;
+}
+
+/* Play Store Section */
+.play-store {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.play-store h3 {
+    font-size: 18px;
+}
+
+.play-store p {
+    font-size: 14px;
+}
+
+.play-store .appDownloadImg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-store .appDownloadImg img {
+    max-width: 40%;
+}
+
+.play-store .visa-box {
+    margin: 20px 0;
+}
+
+.visa-box img {
+    width: 150px;
+}
+.allUl-footer li a{
+text-decoration: none;
+color: black;
+}
+.allUl-footer li a:hover{
+    color: #3bb77e;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .section-last .container-fluid .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .col-2{
+        width: 100%;
+    }
+
+    .footer-company,
+    .footer-account,
+    .footer-corporate,
+    .footer-popular,
+    .play-store {
+        flex: 1 1 100%;
+    }
+
+    .section-last .allUl-footer {
+        align-items: center;
+    }
+
+    .play-store .appDownloadImg {
+        justify-content: center;
+    }
+}

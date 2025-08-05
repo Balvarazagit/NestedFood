@@ -1,0 +1,182 @@
+.listingPage {
+  width: 100%;
+  padding: 45px 0;
+}
+
+.breadcrumb {
+  width: 100%;
+  padding: 45px 45px;
+  background: #d8f1e5;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #7e7e7e;
+}
+.breadcrumb h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.breadcrumb ul li {
+  margin-right: 20px;
+}
+.breadcrumb ul li a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: 600;
+  font-size: 14px;
+}
+.breadcrumb ul li svg {
+  margin: -5px 2px 0 0;
+}
+.productRow {
+  flex-wrap: wrap;
+  max-width: 100% !important;
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+}
+.productRow .item {
+  margin: 15px 0px 15px 22px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.productRow .item button {
+  margin: 0px 0px 0 7px;
+  padding: 0;
+}
+.productRow .item .title {
+  font-size: 20px;
+}
+.productRow .item .rate-count {
+  position: relative;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  height: 12px;
+}
+.productRow .item .productPrice {
+  display: flex;
+  flex-direction: column;
+}
+.productRow .item .overlay svg {
+  margin-right: 2px;
+  font-size: 16px;
+  /* text-align: center; */
+}
+.productRow .item .overlay a {
+  border: none;
+  margin-right: 3px;
+  width: 12px;
+  height: 25px;
+}
+
+/* Pagination css  */
+.pagination {
+  display: flex;
+  position: relative;
+  left: 21%;
+}
+
+.pagination .MuiPagination-root {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .MuiPaginationItem-root {
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.pagination .MuiPaginationItem-page.Mui-selected {
+  background-color: #3bb77e;
+  color: white;
+  border: none;
+}
+.pagination .MuiPaginationItem-page:hover {
+  background-color: #3bb77e;
+  color: white;
+}
+
+.pagination .MuiPaginationItem-ellipsis {
+  color: #6c757d;
+}
+
+.pagination .MuiPaginationItem-previous,
+.pagination .MuiPaginationItem-next {
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+}
+
+.listingPage .topStrip {
+  padding: 0 25px;
+}
+.listingPage .topStrip p {
+  font-size: 18px;
+}
+.listingPage .topStrip .tab_ .btn {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  font-size: 14px;
+}
+/* Ensure dropdowns are correctly displayed */
+.dropdownSort,
+.dropdownFeatured {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  list-style-type: none;
+  padding: 5px 0;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.dropdownSort.show,
+.dropdownFeatured.show {
+  display: block;
+}
+
+/* Style for the dropdown items */
+
+.dropdownSort li,
+.dropdownFeatured li {
+  padding: 0px 20px;
+  cursor: pointer;
+  text-align: left;
+  border: none !important;
+  line-height: 2;
+}
+.dropdownSort li button,
+.dropdownFeatured li button {
+  position: relative;
+  color: #7e7e7e;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropdownSort li:hover,
+.dropdownFeatured li:hover {
+  background-color: #3bb77e;
+}
+.dropdownFeatured li svg,
+.dropdownSort li svg {
+  color: #3bb77e;
+  margin: 0 0px 0 -20px;
+  font-size: 20px;
+}

@@ -1,0 +1,35 @@
+.homeProductsSection {
+    margin: 60px 0;
+}
+.homeProducts {
+    justify-content: space-between;
+    margin: 0px 30px 0 0px;
+    overflow: visible; 
+}
+.homeProductsLink {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.homeProductsLink li {
+    list-style: none;
+    font-weight: 500;
+}
+.homeProductsLink li a {
+    text-decoration: none;
+    color: #253D4E;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+.homeProductsLink li a:hover {
+    color: #3bb77e;
+    transform: translateY(-10px);
+}
+.productContainer{
+    width: 100%;
+    /* display: flex; */
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+

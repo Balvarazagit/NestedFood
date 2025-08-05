@@ -1,0 +1,39 @@
+/* General Padding */
+/* .pb-4 {
+    padding-bottom: 1.5rem;
+  } */
+  .text-lg-start{
+    padding: 20px 0px;
+  }
+  
+  /* Footer Divider */
+  /* .border-success {
+    border-top: 1px solid #bce3c9;
+  } */
+  
+  /* Text and Icons */
+  .text-success {
+    color: #3bb77e !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  /* Social Media Icons Hover Effect */
+  svg {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  svg:hover {
+    transform: scale(1.1);
+  }
+  .small a{
+    text-decoration: none;
+    color: black;
+  }
+  .small a:hover{
+    color: #3bb77e;
+  }

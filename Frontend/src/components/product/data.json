@@ -1,0 +1,248 @@
+{
+  "vegetables": [ 
+    {
+      "name": "Cabbage",
+      "description": "Fresh and crunchy cabbage, rich in fiber and nutrients.",
+      "price": 40,
+      "weight": "1kg",
+      "rating": 4.2,
+      "image": "https://img.freepik.com/premium-photo/cabbage-isolated-white-background_63373-1.jpg"
+    },
+    {
+      "name": "Carrot",
+      "description": "Crunchy and fresh carrot, full of natural sweetness and nutrients.",
+      "price": 50,
+      "weight": "1kg",
+      "rating": 4.5,
+      "image": "https://img.freepik.com/premium-photo/fresh-carrots-isolated-white-background_93314-1396.jpg"
+    },
+    {
+      "name": "Tomato",
+      "description": "Juicy and fresh tomato with a rich, tangy taste.",
+      "price": 60,
+      "weight": "1kg",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/free-photo/fresh-red-tomatoes_2829-13449.jpg"
+    },
+    {
+      "name": "Potato",
+      "description": "Versatile and starchy potato with a soft, fluffy texture when cooked.",
+      "price": 40,
+      "weight": "1kg",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/premium-photo/potato-isolated-white-background_29402-1009.jpg"
+    },
+    {
+      "name": "Spinach",
+      "description": "Fresh and nutrient-rich spinach with tender, vibrant green leaves.",
+      "price": 50,
+      "weight": "500g",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/close-upl-bundle-fresh-spinach-white-background_525574-1072.jpg"
+    },
+    {
+      "name": "Cucumber",
+      "description": "Crisp and hydrating cucumber with a mild, refreshing taste.",
+      "price": 40,
+      "weight": "1kg",
+      "rating": 4.4,
+      "image": "https://img.freepik.com/premium-photo/cucumber-sliced-isolated-white-space_147493-1082.jpg"
+    },
+    {
+      "name": "Onion",
+      "description": "Flavorful and aromatic onion, a staple ingredient in many dishes.",
+      "price": 50,
+      "weight": "1kg",
+      "rating": 4.5,
+      "image": "https://produits.bienmanger.com/36700-0w470h470_Organic_Red_Onion_From_Italy.jpg"
+    },
+    {
+      "name": "Bell Pepper",
+      "description": "Vibrant and crunchy bell peppers, perfect for adding color to dishes.",
+      "price": 70,
+      "weight": "500g",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/premium-vector/set-colored-yellow-green-orange-red-sweet-bulgarian-bell-peppers-paprika-isolated-white_212889-1944.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Broccoli",
+      "description": "Nutrient-packed broccoli with a rich, slightly bitter taste.",
+      "price": 80,
+      "weight": "500g",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/free-photo/green-broccoli_1203-6753.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Cauliflower",
+      "description": "Mild-flavored cauliflower, versatile for cooking in various dishes.",
+      "price": 60,
+      "weight": "1kg",
+      "rating": 4.4,
+      "image": "https://img.freepik.com/premium-photo/cauliflower-isolated-white-background_112793-6250.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    }
+  ],
+  "fruits": [
+    {
+      "name": "Kiwi",
+      "description": "Fresh and juicy kiwi with a tangy-sweet flavor, rich in vitamin C.",
+      "price": 199,
+      "weight": "500g",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/free-vector/realistic-fruits-composition-with-images-whole-sliced-kiwi-fruit-blank-background-vector-illustration_1284-66048.jpg"
+    },
+    {
+      "name": "Strawberry",
+      "description": "Sweet and succulent strawberries packed with antioxidants.",
+      "price": 249,
+      "weight": "250g",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/free-photo/strawberry-isolated-white-background-close-up_93675-128535.jpg"
+    },
+    {
+      "name": "Peach",
+      "description": "Juicy and aromatic peach with a soft texture and natural sweetness.",
+      "price": 180,
+      "weight": "500g",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/free-photo/peach-isolated-white-background_93675-131246.jpg"
+    },
+    {
+      "name": "Red Apple",
+      "description": "Crisp and juicy red apple with a naturally sweet flavor.",
+      "price": 180,
+      "weight": "1kg",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/premium-photo/red-apples-with-leaf-slice-isolated-white_80510-516.jpg"
+    },
+    {
+      "name": "Banana",
+      "description": "Sweet and soft banana, packed with potassium and natural energy.",
+      "price": 60,
+      "weight": "1 dozen",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/ripe-bananas-bunch_78361-10.jpg"
+    },
+    {
+      "name": "Mango",
+      "description": "Sweet and aromatic mango with a luscious, juicy pulp.",
+      "price": 200,
+      "weight": "1kg",
+      "rating": 4.9,
+      "image": "https://img.freepik.com/premium-photo/marian-plum-plum-mango-fruit-with-green-leaves-branch_249194-20.jpg"
+    },
+    {
+      "name": "Blueberry",
+      "description": "Sweet and tart blueberries, rich in antioxidants.",
+      "price": 300,
+      "weight": "250g",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/blueberry-with-leaves-isolated-berry_183352-2696.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Orange",
+      "description": "Juicy and tangy orange, packed with vitamin C.",
+      "price": 120,
+      "weight": "1kg",
+      "rating": 4.5,
+      "image": "https://img.freepik.com/free-photo/raw-cross-ingredient-studio-citrus_1172-204.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Pineapple",
+      "description": "Tropical and juicy pineapple with a sweet and tangy flavor.",
+      "price": 150,
+      "weight": "1kg",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/free-photo/raw-fresh-texture-vitamin-fruit_1172-220.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Pomegranate",
+      "description": "Juicy pomegranate with vibrant seeds rich in antioxidants.",
+      "price": 180,
+      "weight": "1kg",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/premium-photo/pomegranate-fruit-isolated-white_253984-5289.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    }
+  ],
+  "sweets": [
+    {
+      "name": "Chocolate",
+      "description": "Rich and creamy chocolate bar with a smooth, indulgent taste.",
+      "price": 99,
+      "weight": "100g",
+      "rating": 4.5,
+      "image": "https://img.freepik.com/premium-photo/chocolate-marshmallow-isolated-white_176402-3999.jpg"
+    },
+    {
+      "name": "Gulab Jamun",
+      "description": "Soft and juicy Gulab Jamun soaked in sugary syrup.",
+      "price": 150,
+      "weight": "500g",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/indian-traditional-special-sweet-food-gulab-jamun-isolated-white-background_55610-16.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Rasgulla",
+      "description": "Spongy and soft Rasgulla dipped in sweet syrup.",
+      "price": 120,
+      "weight": "500g",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/premium-photo/delicious-melon-balls-bowl-isolated-white_392895-510179.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Barfi",
+      "description": "Delicious Barfi made with condensed milk and sugar.",
+      "price": 180,
+      "weight": "500g",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/premium-photo/indian-sweet-food-dryfruit-barfi-white-background_55610-1277.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Jalebi",
+      "description": "Crispy, sweet Jalebi with a sticky sugar coating.",
+      "price": 100,
+      "weight": "250g",
+      "rating": 4.7,
+      "image": "https://img.freepik.com/premium-photo/indian-sweet-food-imarti-white-background_55610-2459.jpg?w=826"
+    },
+    {
+      "name": "Kaju Katli",
+      "description": "Rich Kaju Katli made with cashew nuts and sugar.",
+      "price": 400,
+      "weight": "500g",
+      "rating": 4.9,
+      "image": "https://img.freepik.com/premium-photo/plate-crackers-with-flower-design-it_862994-634513.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Laddu",
+      "description": "Soft, round Laddu made from gram flour and sugar.",
+      "price": 120,
+      "weight": "500g",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/premium-photo/indian-sweet-food-motichoor-laddu-bundi-laddu-isolated-white-background_55610-10.jpg?w=826  "
+    },
+    {
+      "name": "Soan Papdi",
+      "description": "Flaky and light Soan Papdi made with sugar and gram flour.",
+      "price": 180,
+      "weight": "500g",
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/indian-sweet-food-kopra-pak-white-background_55610-1854.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Ras Malai",
+      "description": "Soft and spongy Ras Malai soaked in thick, sweetened milk.",
+      "price": 200,
+      "weight": "500g",
+      "rating": 4.9,
+      "image": "https://img.freepik.com/free-photo/arroz-con-leche-rice-pudding-with-cinnamon-clay-bowl-isolated-white-background_123827-27190.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    },
+    {
+      "name": "Halwa",
+      "description": "Sweet and dense Halwa made with semolina, sugar, and ghee.",
+      "price": 150,
+      "weight": "500g",
+      "rating": 4.6,
+      "image": "https://img.freepik.com/premium-photo/indian-sweet-food-mawa-peda-white-background_55610-1839.jpg?ga=GA1.1.201398248.1704705676&semt=ais_hybrid"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+.filter-category {
+  background-color: #ffffff;
+  border-radius: 25px;
+  
+}
+.sidebarWrapper {
+  max-width: 20%;
+}
+.sidebar {
+  /* position: sticky; */
+  top: 100px;
+}
+
+.rightContent {
+  max-width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.sidebarWrapper h3 {
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.sidebarWrapper h3:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #f0f0f0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.sidebarWrapper h3:before {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background: #b0e5c2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.sidebarWrapper .sidebar .card {
+  padding: 25px;
+  border-radius: 10px !important;
+  margin-bottom: 30px;
+}
+
+.sidebarWrapper .sidebar .catItem {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  margin: 10px 0px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebarWrapper .sidebar h5 {
+  color: #000;
+  font-size: 16px !important;
+  margin: 0 10px;
+}
+
+.sidebarWrapper .sidebar .rounded-circle {
+  display: inline-block;
+  background-color: #bce3c9;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 5px;
+  font-size: 12px;
+  color: #253d4e;
+}
+
+.sidebarWrapper .sidebar .catItem:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/* Card Padding */
+
+.item-color h5 {
+  margin: 0 0 0 0px !important;
+  font-weight: bold;
+}
+.item-color label {
+  color: #687188;
+}
+
+/* last Sidebar css  */
+.frootList {
+  padding: 25px;
+  border-radius: 15px;
+}
+.img-info {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 20px;
+}
+.juiceImg {
+  max-width: 50%;
+}
+.juiceImg img {
+  max-width: 100%;
+}
+.head5-stars {
+  margin: 0 10px 0 0;
+}
+.head5-stars a {
+  font-size: 24px;
+  color: #3bb77e;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.head5-stars p {
+  font-weight: 400;
+  line-height: 24px;
+  margin: 14px 10px;
+  color: #7e7e7e;
+}
+.img-info .Rating {
+  font-size: 16px;
+  margin: 0 0px 0 10px;
+}
+.Rating .MuiRating-icon {
+  margin: 0;
+}
+
+.Rating .MuiRating-iconEmpty {
+  margin: 0;
+}
+
+/* filter css  */
+/* Button Styling */
+.sidebar .filter button  {
+  background-color: #3bb77e ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  max-width: 60% !important;
+  text-transform: capitalize;
+}
+
+.sidebar .filter button:hover {
+  background-color: #e8c45e;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+/* Chek-Box  */
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  font-size: 18px; 
+  color: #253d4e;
+}
+
+input[type="checkbox"] {
+  accent-color: #3bb77e;
+  width: 24px; 
+  height: 24px; 
+}

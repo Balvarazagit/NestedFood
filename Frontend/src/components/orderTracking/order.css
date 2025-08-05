@@ -1,0 +1,54 @@
+/* order.css */
+.orderPage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 250px;
+}
+
+.orderPage .orderDetails {
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.orderPage .orderDetails p {
+  margin: 10px 0;
+}
+
+.orderPage .cancelButton {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0 14px 0;
+}
+
+.orderPage .cancelButton:hover {
+  background-color: #d32f2f;
+}
+
+.orderPage .continueShoppingButton {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.orderPage .continueShoppingButton:hover {
+  background-color: #45a049;
+}
+
+.orderPage .cancelReasonInput {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.orderPage h2 {
+  text-align: center;
+}

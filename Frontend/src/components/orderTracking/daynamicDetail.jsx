@@ -1,0 +1,1 @@
+// daynamicDetail.jsx

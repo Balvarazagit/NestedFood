@@ -1,0 +1,73 @@
+/* Grandparent (App) styling */
+.appContainer {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Parent (addressWrapper) styling */
+  .addressWrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading inside addressWrapper */
+  .addressWrapper h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling inside addressWrapper */
+  .addressWrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addressWrapper form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .addressWrapper form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .addressWrapper form input:focus {
+    border-color: #4CAF50;
+  }
+  
+  /* Submit Button Styling inside addressWrapper */
+  .addressWrapper button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .addressWrapper button:hover {
+    background-color: #45a049;
+  }
+  
+  .addressWrapper button:active {
+    transform: scale(0.98);
+  }
+  

@@ -1,0 +1,221 @@
+/* Main container for about section */
+.about-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Content styling */
+.about-content {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 1200px;
+  width: 100%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.about-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Description */
+.about-description {
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+/* Feature section for images and text */
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+/* Image styling */
+.aboutimg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Feature content (text) */
+.feature-content {
+  flex: 1;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Alternate feature layout for even rows */
+.feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* Why shop with us section */
+.why-shop {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.why-shop-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.why-shop-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.why-shop-list li {
+  margin-bottom: 10px;
+}
+
+/* Responsive design for tablets and smaller devices */
+@media (max-width: 1024px) {
+  .about-content {
+    padding: 30px;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .feature {
+    gap: 30px;
+  }
+
+  .aboutimg {
+    width: 220px;
+    height: 220px;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+  }
+
+  .feature-description {
+    font-size: 1rem;
+  }
+
+  .why-shop-title {
+    font-size: 1.8rem;
+  }
+
+  .why-shop-list {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 0.95rem;
+  }
+
+  .feature {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .aboutimg {
+    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .feature-content {
+    text-align: center;
+  }
+
+  .feature-title {
+    font-size: 1.4rem;
+  }
+
+  .feature-description {
+    font-size: 0.95rem;
+  }
+
+  .why-shop-title {
+    font-size: 1.6rem;
+  }
+
+  .why-shop-list {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive design for very small devices (below 480px) */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-description {
+    font-size: 0.85rem;
+  }
+
+  .feature-title {
+    font-size: 1.2rem;
+  }
+
+  .feature-description {
+    font-size: 0.85rem;
+  }
+
+  .aboutimg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .why-shop-title {
+    font-size: 1.4rem;
+  }
+
+  .why-shop-list {
+    font-size: 0.85rem;
+  }
+  .feature:nth-child(even) {
+    flex-direction: column;
+  }
+}

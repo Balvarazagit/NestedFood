@@ -1,0 +1,162 @@
+/* Grandparent (App) styling */
+.appContainer {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Parent (PaymentPage) styling */
+  .paymentPage {
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .paymentPage h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling inside PaymentPage */
+  .paymentPage form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .paymentPage form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .paymentPage form input,
+  .paymentPage form select {
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .paymentPage form input:focus,
+  .paymentPage form select:focus {
+    border-color: #4CAF50;
+  }
+  
+  /* Submit Button Styling */
+  .paymentPage button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .paymentPage button:hover {
+    background-color: #45a049;
+  }
+  
+  .paymentPage button:active {
+    transform: scale(0.98);
+  }
+  
+  .error {
+    color: red;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .paymentPage {
+      width: 90%;
+    }
+  
+    .paymentPage form input,
+    .paymentPage form select {
+      font-size: 14px;
+    }
+  }
+  
+  /* Add an overlay background to make the page more polished */
+  .paymentPage:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 10px;
+  }
+/* Payment Page Container */
+.paymentWrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paymentWrapper h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .payButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payButton:hover {
+    background-color: #45a049;
+  }
+  
+  .payButton:active {
+    transform: scale(0.98);
+  }
+  
+  /* Payment Success Message */
+  .paymentMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .paymentMessage p {
+    font-size: 20px;
+    font-weight: bold;  
+  }
+    

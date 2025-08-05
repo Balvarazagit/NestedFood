@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Page Container */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Medium Width for Form Elements */
+.medium-width {
+  max-width: 300px; /* Slightly wider for better form layout */
+  width: 100%;
+}
+
+/* Header Styles */
+.form-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+  text-align: center;
+}
+
+.form-section p {
+  font-size: 1rem;
+  color: #6c757d;
+  text-align: center;
+}
+
+/* Social Login Buttons */
+.social-section .btn {
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+/* Hover Effects */
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  box-shadow: 0 2px 6px rgba(33, 136, 56, 0.4);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  box-shadow: 0 2px 6px rgba(11, 94, 215, 0.4);
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-dark:hover {
+  background-color: #1d2124;
+  box-shadow: 0 2px 6px rgba(29, 33, 36, 0.4);
+}
+
+.btn-light {
+  border: 1px solid #ced4da;
+  background-color: white;
+  color: #495057;
+  border-radius: 8px;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+}
+
+/* Spacing for Table Elements */
+.table-borderless {
+  border-collapse: separate;
+  border-spacing: 0 15px; /* Add vertical space between rows */
+}
+
+/* Social Buttons Alignment */
+.social-section button {
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Checkbox and Radio */
+.form-check-input {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+label {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Hover Links */
+a.text-success {
+  text-decoration: none;
+  color: #28a745;
+}
+
+a.text-success:hover {
+  text-decoration: underline;
+  color: #1e7e34;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-page {
+      padding: 30px;
+  }
+
+  .form-section h2 {
+      font-size: 1.8rem;
+  }
+
+  .medium-width {
+      max-width: 100%;
+  }
+
+  .btn {
+      font-size: 14px;
+      padding: 8px;
+  }
+}
