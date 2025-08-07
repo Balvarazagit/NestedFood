@@ -16,7 +16,7 @@ const Cart = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
 
-  const stripePromise = loadStripe("pk_test_51RJBIBE6dFEmdQgLVWyoMWdnPyXYi67gw9xZtSKHauPB3zAk72glw3sqkfS2JGz6wmCFDXuTllLGG4UOh03H0rTM00TrrfnpMG");
+  const stripePromise = loadStripe(`${import.meta.env.VITE_STRIPE_KEY}`);
 
   const fetchCart = async () => {
     try {
