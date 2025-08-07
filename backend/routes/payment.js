@@ -24,8 +24,8 @@ const stripe = new Stripe(process.env.STRIPE_API_KEY); // Replace with your real
         payment_method_types: ["card"],
         line_items,
         mode: "payment",
-        success_url: "http://localhost:5173/success",
-        cancel_url: "http://localhost:5173/cart",
+        success_url: `${import.meta.env.VITE_BACKEND_URL}/success`,
+        cancel_url: `${import.meta.env.VITE_BACKEND_URL}/cart`,
         metadata: {
           address,
         },
