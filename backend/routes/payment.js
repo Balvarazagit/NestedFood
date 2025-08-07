@@ -18,14 +18,14 @@ const stripe = new Stripe(process.env.STRIPE_API_KEY); // Replace with your real
       },
       quantity: item.quantity,
     }));
-  console.log("FRONTEND_URL:", process.env.FRONTEND_API);
+  console.log("FRONTEND_URL:", process.env.REACT_APP_FRONTEND_API);
     try {
       const session = await stripe.checkout.sessions.create({
         payment_method_types: ["card"],
         line_items,
         mode: "payment",
-        success_url: `${process.env.FRONTEND_API}/success`,
-        cancel_url: `${process.env.FRONTEND_API}/cart`,
+        success_url: `${process.env.REACT_APP_FRONTEND_API}/success`,
+        cancel_url: `${process.env.REACT_APP_FRONTEND_API}/cart`,
         metadata: {
           address,
         },
