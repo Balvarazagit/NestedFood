@@ -24,8 +24,8 @@ const stripe = new Stripe(process.env.STRIPE_API_KEY); // Replace with your real
         payment_method_types: ["card"],
         line_items,
         mode: "payment",
-        success_url: `${process.env.REACT_APP_FRONTEND_API}/success`,
-        cancel_url: `${process.env.REACT_APP_FRONTEND_API}/cart`,
+        success_url: `${process.env.FRONTEND_API}/success`,
+        cancel_url: `${process.env.FRONTEND_API}/cart`,
         metadata: {
           address,
         },
