@@ -13,7 +13,7 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/products/${id}`);
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/products/${id}`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -32,7 +32,7 @@ const ProductDetail = () => {
   const handleAddToCart = async (id) => {
     if(localStorage.getItem('token')){
       try {
-        const response = await fetch("http://localhost:5000/api/cart", {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/cart`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

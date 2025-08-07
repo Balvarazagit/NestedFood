@@ -22,7 +22,7 @@ const Shop = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/products");
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/products`);
         const data = await res.json();
         setAllProducts(data); 
       } catch (error) {

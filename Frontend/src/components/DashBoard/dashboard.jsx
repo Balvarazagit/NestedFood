@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const Dashboard = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState({}); // User data from API
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = `${import.meta.env.VITE_BACKEND_URL}/api`;
   const token = localStorage.getItem("token"); // Or "userToken" based on your app
   console.log(token)
 const User = JSON.parse(localStorage.getItem("user")); // ✅ Correctly parse user

@@ -5,6 +5,7 @@ import AppleIcon from "@mui/icons-material/Apple";
 import "./login.css";
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import *  as dotenv from  'dotenv';
 
 const Login = () => {
   const [email, setEmail] = useState(""); // Email state
@@ -14,10 +15,9 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault(); // Form submission default behavior stop karo
-
     try {
       // Sending POST request to the backend API using fetch
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/auth/login`, {
         method: 'POST', // HTTP method
         headers: {
           'Content-Type': 'application/json', // Set the content type as JSON

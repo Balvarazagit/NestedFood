@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const token = localStorage.getItem('token');
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = `${import.meta.env.VITE_BACKEND_URL}/api`;
 
   useEffect(() => {
     const fetchOrders = async () => {

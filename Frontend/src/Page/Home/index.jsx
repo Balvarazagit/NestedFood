@@ -22,8 +22,8 @@ const Home = () => {
     try {
       const url =
         selectedCategory === "All"
-          ? "http://localhost:5000/api/products"
-          : `http://localhost:5000/api/products?category=${selectedCategory}`;
+          ? `${import.meta.env.VITE_BACKEND_URL}/api/products`
+          : `${import.meta.env.VITE_BACKEND_URL}/api/products?category=${selectedCategory}`;
       const response = await fetch(url);
       const data = await response.json();
       setProducts(data); // Store fetched products

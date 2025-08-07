@@ -20,7 +20,7 @@ const Cart = () => {
 
   const fetchCart = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/cart", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/cart`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
@@ -45,7 +45,7 @@ const Cart = () => {
   const handleCheckout = async () => {
     try {
       const stripe = await stripePromise;
-      const res = await fetch("http://localhost:5000/api/create-checkout-session", {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/create-checkout-session`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ const Cart = () => {
 
   const updateCart = async (id, action) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/cart/${id}/${action}`, {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/cart/${id}/${action}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -95,7 +95,7 @@ const Cart = () => {
 
   const removeItem = async (id) => {
     try {
-      const res = await fetch("http://localhost:5000/api/cart", {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/cart`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
